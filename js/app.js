@@ -21,7 +21,7 @@ function comprar() {
         } else {
             qtdPista = qtdPista - qtd;
             document.getElementById('qtd-pista').textContent = qtdPista;
-            alert('Compra realisada com sucesso.');
+            alert('Compra realizada com sucesso.');
         }
     }
 
@@ -32,7 +32,7 @@ function comprar() {
         } else {
             qtdSuperior = qtdSuperior - qtd;
             document.getElementById('qtd-superior').textContent = qtdSuperior;
-            alert('Compra realisada com sucesso.');
+            alert('Compra realizada com sucesso.');
         }
     }
 
@@ -43,7 +43,7 @@ function comprar() {
         } else {
             qtdInferior = qtdInferior - qtd;
             document.getElementById('qtd-inferior').textContent = qtdInferior;
-            alert('Compra realisada com sucesso.');
+            alert('Compra realizada com sucesso.');
         }
     }
 }
